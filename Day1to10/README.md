@@ -1,4 +1,4 @@
-###Day 1:
+## [Day 1](https://github.com/ivymorenomt/100daysofPython/blob/master/Day1to10/dayone.py):
 
 Overall functionality of the code is to read text from a file and converting it to a list
 I have also created the following functions:
