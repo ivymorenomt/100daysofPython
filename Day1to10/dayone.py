@@ -14,7 +14,7 @@ def read_files():
     files = ["accounts.txt", "details.csv", "invite.docx"]
     print("\nLooping thru all the list of files from Files variable and print out directory and filename\n")
     for file in files:
-        print(os.path.join("C:\\Users\\marjo\\PycharmProjects\\100daysofcode\\", file))
+        print(os.path.join("C:\\Users\\marjo\\PycharmProjects\\100daysofcode\\data\\", file))
 
     entries = os.listdir(getWorkingDirectory())
     print("\nList entries of the current working directory\n")
@@ -43,7 +43,7 @@ def split_string(text):
     return text.split()
 
 def read_a_file(file):
-    workingDirectory = open(f'C:\\Users\\marjo\\PycharmProjects\\100daysofcode\\{file}')
+    workingDirectory = open(f'C:\\Users\\marjo\\PycharmProjects\\100daysofcode\\data\\{file}')
     text_to_split = workingDirectory.read()
     return split_string(text_to_split)
 
