@@ -128,25 +128,24 @@ List after all the changes: ['Hannah', 'Louisa', 'Claudia', 'Angela', 'Jeffrey',
 ## [Day Four](https://github.com/ivymorenomt/100daysofPython/blob/master/Day1to10/dayfour.py):
 
 #### Add Elements:
-Append - you could only add one element, at the end of the list
-Extend - you could add more items in a list
-Insert - you can insert the item at a given position (index, value)
+* Append - you could only add one element, at the end of the list
+* Extend - you could add more items in a list
+* Insert - you can insert the item at a given position (index, value)
 
 #### Remove / Clear Elements
-clear - will remove all items from the list
-pop - remove the item at the given position in the list and return it
-- if no index is specified removes and returns last item in teh list
-Remove - removes the first item from the list whose value is x
-- it throws a valueerror if the item is not found
+* Clear - will remove all items from the list
+* Pop - remove the item at the given position in the list and return it; if no index is specified removes and returns last item in teh list
+* Remove - removes the first item from the list whose value is x; it throws a valueerror if the item is not found
 
 #### Index, Count, Sort, Reverse and Join
-Index - returns the index of the specified item in the list or start and end
-count - it outputs the number of times x appears in the list
-Reverse - reverse the elements; it does not create a new list but updates this list
-Sort - sorts the elements in place
-Join - convert the two strings and joins them
+* Index - returns the index of the specified item in the list or start and end
+* count - it outputs the number of times x appears in the list
+* Reverse - reverse the elements; it does not create a new list but updates this list
+* Sort - sorts the elements in place
+* Join - convert the two strings and joins them
 
 Day Four Output:
+
 This function is for For Loops
 16
 36
