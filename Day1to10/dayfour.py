@@ -38,34 +38,65 @@ def iteration():
     results = results.upper()
     print(results)
 
-def list_methods():
-    print('\nThis function is for all the list methods\n')
-    first_list = [1,2,3,4,4,5]
-    first_list.append(5)
-    print(f'Append an element at the end: {first_list}')
-    first_list.extend([5,6,7,8])
-    print(f'Extend the list as one item: {first_list}')
-    first_list.insert(1,9) # -1 is adding to the second to the last
-    print(f'Insert an element at the second position: {first_list}')
-    first_list.pop(2)
-    print(f'Item removed is 2: {first_list}')
-    first_list.pop()
-    print(f'Last item is removed: {first_list}')
-    first_list.remove(4)
-    print(f'Item is removed: {first_list}')
-    print(f'The index of value 4 is: {first_list.index(4)}')
-    print(f'The number of times 5 has appeared in the list: {first_list.count(5)}')
-    first_list.reverse()
-    print(f'The list in reverse: {first_list}')
-    first_list.sort()
-    print(f'The list sorted in ascending order: {first_list}')
-    words = ['coding', 'is','fun']
-    sentence = ' '.join(words)
-    print(f'Joined list: {sentence}')
 
+def list_append(arr, val):
+    arr.append(val)
+    print(f'Append an element at the end: {arr}')
+    return arr
+
+def list_extend(arr, val):
+    arr.extend(val)
+    print(f'Extend the list as one item: {arr}')
+    return arr
+
+def list_insert(arr, pos, val):
+    arr.insert(pos, val)  # -1 is adding to the second to the last
+    print(f'Insert an element at {pos} position: {arr}')
+    return arr
+
+def list_pop(arr, val):
+    arr.pop(val)
+    print(f'Item removed is {val}: {arr}')
+    arr.pop()
+    print(f'Last item is removed: {arr}')
+    return arr
+
+def list_remove(arr,val):
+    arr.remove(val)
+    print(f'Item is removed: {arr}')
+def list_index(arr, val):
+    print(f'The index of value {val} is: {arr.index(val)}')
+
+def list_count(arr, val):
+    print(f'The number of times {val} has appeared in the list: {arr.count(val)}')
+
+def list_reverse(arr):
+    arr.reverse()
+    print(f'The list in reverse: {arr}')
+
+def list_sort(arr):
+    arr.sort()
+    print(f'The list sorted in ascending order: {arr}')
+
+def join_string(arr):
+    sentence = ' '.join(arr)
+    print(f'Joined string in list: {sentence}')
 
 if __name__ == "__main__":
+    first_list = [1, 2, 3, 4, 4, 5]
+    words = ['coding', 'is', 'fun']
+
+    list_append(first_list, 5)
+    list_extend(first_list, [5, 6, 7, 8])
+    list_insert(first_list,1,9)
+    list_pop(first_list, 4)
+    list_remove(first_list, 5)
+    list_index(first_list, 5)
+    list_count(first_list, 5)
+    list_reverse(first_list)
+    list_sort(first_list)
+    join_string(words)
+    print("\n")
     for_loop()
     while_loop()
     iteration()
-    list_methods()
