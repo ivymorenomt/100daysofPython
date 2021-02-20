@@ -125,7 +125,7 @@ List after all the changes: ['Hannah', 'Louisa', 'Claudia', 'Angela', 'Jeffrey',
 [4, 5, 6, 7, 8]
 9
 
-## [Day Four](https://github.com/ivymorenomt/100daysofPython/blob/master/Day1to10/dayfour.py):
+## [Day 4](https://github.com/ivymorenomt/100daysofPython/blob/master/Day1to10/dayfour.py):
 
 #### Add Elements:
 * Append - you could only add one element, at the end of the list
@@ -182,12 +182,12 @@ The list in reverse: [7, 6, 5, 5, 5, 4, 3, 9, 1]
 The list sorted in ascending order: [1, 3, 4, 5, 5, 5, 6, 7, 9]
 Joined list: coding is fun
 
-## [Day 5]((https://github.com/ivymorenomt/100daysofPython/blob/master/Day1to10/dayfive.py)):
+## [Day 5](https://github.com/ivymorenomt/100daysofPython/blob/master/Day1to10/dayfive.py):
 #### Slicing
 
 Make new lists using slices of the old list
 
-some_list[start:end:step]
+some_list[start : end : step]
 
 First parameter: Start - what index to start slicing from
 Second parameter: End - the index to copy up to(exclusive counting)
