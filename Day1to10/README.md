@@ -200,3 +200,7 @@ Swapping values
  
  *** Busy writing conference papers.. will continue with List Comprehension/Looping on Day 6.
  
+### Day 6
+
+For Loop
+
