@@ -1,4 +1,4 @@
-## [Day 2](https://github.com/ivymorenomt/100daysofPython/blob/master/Day1to10/daytwo.py):
+## Day 2:
 
 #### List Slicing
 
