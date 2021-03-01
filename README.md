@@ -12,5 +12,12 @@ I would immerse into the basics of Python language which are the following:
   * String manipulation
   * Iteration, Conditionals, Boolean
   * Data Structures: Lists, Dictionary, Tuples, Sets
-  * Comprehension - List and Dictionary
+  * Comprehension - List
   * Matrix implementation and how to use it
+
+[Day 11 to 20](https://github.com/ivymorenomt/100daysofPython/tree/master/Day11to20): Beginner-Intermediate Python
+
+Continuation of some basics and Intermediate topics of Python:
+* Continuation of List Comprehension
+* Python Scope, Debugging, Functions
+* Data Structures: Dictionary, Tuples, Sets
